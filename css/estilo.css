@@ -55,7 +55,39 @@ nav{
 
 .nav-itens li a:hover{
     color: antiquewhite;
-    
     transition: .5s;
 }
 
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2CC76A;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.default-btn:hover{
+    background-color: #22BB5F;
+    color: #fff;
+}
+
+.main-banner{
+    background-image: url('../img/mainbanner.png');
+    padding: 12em 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
