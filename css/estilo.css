@@ -91,3 +91,37 @@ nav{
 .main-banner p{
     font-size: 32px;
 }
+
+/* Início especiabilidades */
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;   
+}
+
+.fa-shield-alt{
+    color: #2CC76A;
+}
+
+.fa-rocket{
+    color: orangered;
+}
